@@ -1,0 +1,13 @@
+{
+  "name": "april",
+  "version": "1.0.0",
+  "description": "A text-to-music generator for RnB instrumentals.",
+  "scripts": {
+    "install-deps": "pip install -r requirements.txt",
+    "preprocess": "python scripts/preprocess.py",
+    "train": "python scripts/train.py",
+    "generate": "python scripts/generate.py",
+    "start": "yarn generate"
+  },
+  "dependencies": {}
+}
